@@ -242,12 +242,13 @@
                     "description": {
                         "type": "string"
                     },
+                    "status": {
+                        "type": "string"
+                    },
                     "created_at": {
                         "type": "string"
                     },
-                    "age": {
-                        "type": "integer"
-                    },
+                    
                     "assigned_to": {
                         "type": "string"
                     }
@@ -255,8 +256,9 @@
                 "required": [
                     "title",
                     "description",
+                    "status",
                     "created_at",
-                    "age",
+                    
                     "assigned_to"
                 ]
             },
